@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    margin: 0px;
+    padding: 0px;
+}
+
+.principal-1{
+    width: 20%;
+    height: 10vh;
+    background-color: cornflowerblue;
+    flex-direction: column;
+    margin: 0 auto;
+    display: flex;
+}
+.principal-2{
+    display:flex;
+    background-color: coral;
+}
+
+.principal-1 .fila:nth-child(1) .col div:nth-child(1) svg{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    padding: 10px;
+}
