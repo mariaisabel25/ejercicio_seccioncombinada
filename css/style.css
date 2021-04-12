@@ -6,24 +6,95 @@ body{
 main{
     margin: 0px;
     padding: 0px;
+    background-color: cornflowerblue;
 }
 
 .principal-1{
-    width: 20%;
-    height: 10vh;
-    background-color: cornflowerblue;
-    flex-direction: column;
-    margin: 0 auto;
+    width: 100%;
+    /*  */
     display: flex;
 }
-.principal-2{
-    display:flex;
-    background-color: coral;
+
+.fila{
+    display: flex;
 }
 
-.principal-1 .fila:nth-child(1) .col div:nth-child(1) svg{
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
+.fila div .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 10px;
+    text-align: center;
+}
+
+
+.principal-1 .fila:nth-child(1) .col div:nth-child(1) svg{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    padding: 20px;
+    justify-content: center;
+    display: inline-block;
+}
+
+.col div svg{
+    align-items: center;
+    background-position: center;
+    margin: 0 25%;
+    border-radius: 50%;
+    background-color: azure;
+  
+    
+}
+.col div h2{
+    color: azure;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.col div p{
+    color: azure;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.col div a,button{
+    background-color: none;
+    border: none;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.col div a button{
+    justify-content: center;
+    margin: 20px;
+    width: 80%;
+    /* padding-left:20px;  */
+    padding: 100% auto;
+    border-radius: 15px;
+    margin-right: 25px;
+}
+
+.principal-2{
+    padding: 5px 50px 50px 50px;
+}
+
+.col2 h2,h4,p,a{
+    color: azure;
+    text-align: center;
+    width: 90%;
+}
+
+.col2{
+    padding: 10px 50px 50px 50px;
+    background-color: darkblue;
+}
+
+.col2 button{
+    width: 50%;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-right: 150px;
+
 }
